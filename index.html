@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>kangen water</title>
+
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+
+
+</head>
+
+<body class="bg-white">
+    <header>
+        <div id="menu-jk" class="nav-part shadow-md bg-white navcol">
+            <div class="container-lg">
+                <div class="row  p-2">
+                    <div class="col-lg-3 p-2">
+                        <a href="index.html">
+                            <img src="assets/images/new-logo.png" alt="kengen" width="150" height="45">
+                        </a>
+                        <a data-bs-toggle="collapse" data-bs-target="#menu" class="float-end d-lg-none pt-1 ps-2"><i
+                                class="bi pt-1 fs-1 cp bi-list"></i></a>
+                    </div>
+                    <div id="menu" class="col-lg-9 d-none pt-1 d-lg-block">
+                        <ul class="fw-bold nacul fs-7 float-end">
+                            <li class="float-start p-3 px-4"><a href="index.html">Home</a></li>
+                            <li class="float-start p-3 px-4"><a href="about.html">About Us</a></li>
+                            <li class="float-start p-3 px-4"><a href="products.html">Products</a></li>
+                            <li class="float-start p-3 px-4"><a href="blog.html">Blog</a></li>
+                            <li class="float-start p-3 px-4"><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- ##################### Slider Starts Here #################### -->
+         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="dot" onclick="currentSlide(0)" aria-hidden="true"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="dot" onclick="currentSlide(1)" aria-hidden="true"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="dot" onclick="currentSlide(2)" aria-hidden="true"></button>
+                <!-- Add more buttons as needed for additional slides -->
+            </div>
+        
+            <div class="carousel-inner">
+                <div class="carousel-item bg-light" id="slide0" onmouseover="pauseCarousel()" onmouseout="resumeCarousel()">
+                    <!-- Slide 1 content -->
+                    <img src="assets/images/slider/s3.avif" class="d-block w-100" style="height: 600px;" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <h3><span class="text-primary"><b>KANGEN WATER</b> <br>Change Your Water, Change Your Life!</span> </h3>
+                                <p class="text-dark d-none d-md-block text-start">"Kangen Water" refers to water produced by a specific type of water ionization device, often known as a water ionizer or alkaline water machine. These machines use a process called electrolysis to separate water into alkaline and acidic components. The alkaline water is promoted as having health benefits, such as being more hydrating and having antioxidant properties.</p>
+                            </div>
+                            <div class="col-lg-6 animate__animated animate__bounceInRight d-none d-lg-block">
+                                <img class="w-100" src="assets/images/sp1.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="carousel-item bg-light" id="slide1" onmouseover="pauseCarousel()" onmouseout="resumeCarousel()">
+                    <!-- Slide 2 content -->
+                    <img src="assets/images/slider/s3.avif" class="d-block w-100" style="height: 600px;" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <h3><span class="text-primary"><b>KANGEN WATER</b> <br>Change Your Water, Change Your Life!</span> </h3>
+                                <p class="text-dark d-none d-md-block text-start">"Kangen Water" refers to water produced by a specific type of water ionization device, often known as a water ionizer or alkaline water machine. These machines use a process called electrolysis to separate water into alkaline and acidic components. The alkaline water is promoted as having health benefits, such as being more hydrating and having antioxidant properties.</p>
+                            </div>
+                            <div class="col-lg-6 animate__animated animate__bounceInRight d-none d-lg-block">
+                                <img class="w-100" src="assets/images/sp1.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="carousel-item bg-light active" id="slide2" >
+                    <!-- Slide 3 content -->
+                    <img src="assets/images/slider/s3.avif" class="d-block w-100" style="height: 600px;" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <div class="row">
+                            <div class="col-lg-6 animate__animated animate__bounceInLeft">
+                                <h3><span class="text-primary"><b>KANGEN WATER</b> <br>Change Your Water, Change Your Life!</span> </h3>
+                                <p class="d-none d-md-block text-dark text-start">It's important to note that while some people claim positive effects from drinking alkaline water, scientific evidence supporting these claims is limited and often inconclusive. The human body is effective at regulating its pH levels, and there's little evidence to suggest that consuming alkaline water significantly impacts health.</p>
+                            </div>
+                            <div class="col-lg-6 animate__animated animate__bounceInRight d-none d-lg-block">
+                                <img class="w-100" src="assets/images/sp2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true">
+               <i class="bi bi-chevron-left text-black-50 fs-4"></i>
+                </span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true">
+                    <!-- Bootstrap Icons: Arrow Right -->
+                    <i class="bi bi-chevron-right  text-black-50 fs-4"></i>
+
+                </span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            
+             
+            <script>
+                function currentSlide(index) {
+                    var carousel = new bootstrap.Carousel(document.getElementById('carouselExampleIndicators'));
+                    carousel.to(index);
+                }
+            </script>
+        </div>
+        
+    <!-- ##################### Why Choos US #################### -->
+    <div class="container-fluid products bg-opacity-10 big-padding pt-3">
+
+        <div class="container-xl ">
+            <div class="section-title row ">
+                <a href="about.html">
+                    <h2 class="fs-3 " style="color:  #1690f0"><b>Our Services</b></h2>
+                </a>
+                <p class="text-justify">Kangen Water machines, primarily offers water ionization products. The key
+                    service provided by Enagic is the manufacturing and distribution of Kangen Water machines, which are
+                    designed to produce alkaline and acidic water through electrolysis.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-4 col-md-6">
+                    <div class="cover text-center p-4 shadow-lg bg-gray card zoom1">
+                        <img class="w-125 mx-auto d-block" src="assets/images/services/01.jpg" alt="">
+                        <h2 class="fs-5 mt-4 text-primary"><b>Home Filtration Systems</b></h2>
+                        <p class="text-justify">Strong Kangen Water is produced simultaneously from the flexible (upper)
+                            pipe when you press
+                            Strong Acidic Water 2.5 pH button. Strong Kangen Water 11.5 pH has a detergent effect and is
+                            able to dissolve
+                            and draw out oil-based substances. Strong Kangen Water can emulsify oil, clean oily or
+                            greasy things,
+                            remove pesticide residue from produce.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4 col-md-6">
+                    <div class="card text-center p-4 shadow-lg bg-gray card zoom1 ">
+                        <img class="w-125 mx-auto d-block " src="assets/images/services/20.webp" alt="">
+                        <h2 class="fs-5 mt-4 text-primary"><b>Drinking Water Systems</b></h2>
+                        <p class="text-justify">On Kangen Water mode, there are 3 level of pH you can select by pressing
+                            "Kangen" button on the machine. The pH level are 8.5, 9.0 and 9.5. All of those used for
+                            daily drinking water. If it is the first time you drink Kangen Water, better to start from
+                            8.5 pH for one week, then gradually increase the level to 9.0, and then 9.5 pH after your
+                            body has adjusted. </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4 col-md-6">
+                    <div class="cover text-center p-4 shadow-lg bg-gray card zoom1">
+                        <img class="w-125 mx-auto d-block" src="assets/images/services/51.jpg" alt="">
+                        <h2 class="fs-5  mt-4 text-primary"><b>Problem Water Solution</b></h2>
+                        <p class="text-justify"> Drinking tap water should be safe, affordable, and taste good. Follow
+                            our guide to check your tap water quality and find the best filtration system for you.
+                            The word is out: bottled water can be bad for our wallets, our health and our environment.
+                            If you’re among the growing number of people kicking the bottled water habit.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4 col-md-6">
+                    <div class="cover text-center p-4 shadow-md bg-gray  card zoom1">
+                        <img class="w-125 mx-auto d-block" src="assets/images/services/30.jpg" alt="">
+                        <h2 class="fs-5  mt-4 text-primary"><b>Tap Water Filter</b></h2>
+                        <p class="text-justify"> The United States provides some of the cleanest drinking water in the
+                            world, and more than 90 percent of water systems meet all EPA regulations. Some people may
+                            prefer to filter their tap water, however, because they prefer the taste, want to remove
+                            minerals and particulates or have concerns about lead piping and plumbing. </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4 col-md-6">
+                    <div class="cover text-center p-4 shadow-lg bg-gray  card zoom1">
+                        <img class="w-125 mx-auto d-block" src="assets/images/services/p6.webp" alt="">
+                        <h2 class="fs-5  mt-4 text-primary"><b>Shower Water Filter</b></h2>
+                        <p class="text-justify">This water is produced when you press "Beauty" button on Kangen Water
+                            machine. The pH of this water is slightly acidic with 6.0 pH. Beauty Water offers cleansing
+                            and astringent qualities which lends a softness to skin and tightens pores just as a "toner"
+                            would. It's great for sensitive or dry skin and help to maintain skin moisture. </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4 col-md-6 ">
+                    <div class="cover text-center p-4 shadow-lg bg-gray  card zoom1 ">
+                        <img class="w-125 mx-auto d-block" src="assets/images/services/p7.png" alt="">
+                        <h2 class="fs-5  mt-4 text-primary"><b>Home Water Test</b></h2>
+                        <p class="text-justify">Strong Acidic Water with 2.5 pH is very excellent to be used as cleaning
+                            or disinfecting agent. With its strong acidity, this water is able to kill germs and
+                            bacteria and can help you sanitize anything. Eventhough it is very acid, this water is still
+                            very safe for human skins and also safe for the environment as it contains no chemical
+                            properties.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!--- ############ Footer Starts Here ################## -->
+    <footer>
+        <div class="inner " style="background-color: rgb(11, 12, 12);">
+            <div class="container ">
+                <div class="row text-white">
+                    <div class="col-md-4 foot-post">
+                        <h4 class="text-white">Change Your Water,<br>Change Your Life!</h4>
+                        <div class="post-row">
+                            <div class="image">
+                                <!-- <img src="assets/images/album/a6.jpg" alt=""> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 foot-about">
+                        <h4 class="text-white">KANGEN WATER</h4>
+                        <ul>
+                            <li><a href="contact.html" class="text-white">Robox Automation</a>,
+                                #503, Gayathri Nest, Street No 2,
+                                Telecom Nagar Colony, Gachibowli</li>
+                            <li><a href="https://www.roboxautomation.com/"
+                                    class="text-white">www.roboxautomation.com</a></li>
+                            <li>+91 888 644 0390</li>
+                        </ul>
+                    </div>
+
+
+
+
+
+                    <div class="col-md-4 foot-news">
+                        <h4 class="text-white">News Letter</h4>
+                        <p>The biggest set back in considering a kangen water machine for domestic use in India is lack
+                            of integrated after sales customer support or door step service in major cities across the
+                            country.
+
+                        </p>
+
+                        <div class="input-group mb-3">
+                            <div class="input-group-append">
+                                <span id="basic-addon2"></span>
+                            </div>
+                        </div>
+
+                        <ul>
+                            <li><a href="https://www.facebook.com"><i class="bi bi-facebook text-white"></i></a></li>
+                            <li><a href="https://www.twitter.com"><i class="bi bi-twitter text-white"></i></a></li>
+                            <li><a href="https://www.instagram.com"><i class="bi bi-instagram text-white"></i></a></li>
+                            <li><a href="https://www.linkedin.com"><i class="bi bi-linkedin text-white"></i></a></li>
+                            <li><a href="https://www.pinterest.com"><i class="bi bi-pinterest text-white"></i></a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copy">
+        <div class="container">
+            <a href="https://www.roboxautomation.com/">2023 &copy; All Rights Reserved | Designed and Developed by
+                roboxautomation.com</a>
+        </div>
+    </div>
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    function currentSlide(index) {
+        var carousel = new bootstrap.Carousel(document.getElementById('carouselExampleIndicators'));
+        carousel.to(index);
+    }
+</script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        let slideIndex = 1;
+        showSlides(slideIndex);
+    
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+    
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+    
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = "dot"; // Remove "active" from all dots
+            }
+            dots[slideIndex - 1].className += " active"; // Add "active" to the current dot
+            // slides[slideIndex - 1].style.display = "block"; // Display the corresponding slide
+        }
+    
+       
+        // Set the second dot as active initially
+        dots[1].classList.add('active');
+    
+        // Add event listener for the second dot
+        dots[1].addEventListener('mouseover', function () {
+            dots[1].classList.add('active');
+        });
+    
+        dots[1].addEventListener('mouseout', function () {
+            dots[1].classList.remove('active');
+        });
+    });
+    </script>   
+</script>
+
+</html>
